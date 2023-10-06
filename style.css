@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  color: white;   
+}
+.main {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.button-wrap {
+  display: grid;
+  /* 한 줄에 4개씩, 모두 동일한 비율 적용(1:1:1:1) */
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #dedbea;
+  gap: 5px;
+  padding: 5px;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 5px #dedbea55;
+}
+input, button {
+  height: 70px;
+  outline: none;
+}
+input {
+  width: 100%;
+  height: 90px;
+  text-align: right;
+  border: 10px solid #a846ff;
+  background: #dedbea;
+  padding-right: 1rem;
+  font-size: 3rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: black;
+  box-shadow: 5px 5px #dedbea55;
+}
+button {
+  background: #dab1fd;
+  font-size: 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.numBtn{
+  color: black;
+}
+/* nth-child(4n+2): 4번째 요소마다 스타일을 적용하는데 처음에만 두번째에 적용 */
+button:nth-child(4n+2), button:last-child  {
+  background-color: #a846ff;
+}
+button:hover {    
+  opacity: .5;
+}
+.ac {
+  /* 첫 번째 선부터 4번째 선까지 지정 */
+  grid-column: 1/4;
+  background: #a846ff;
+}
+.zero {
+  /* 첫 번째 선부터 3번째 선까지 지정 */
+  grid-column: 1/3;
+}
+
+#operator{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
