@@ -54,8 +54,10 @@
       // console.log(n);
       // console.log(op_input);
       if (op_input === null) {
-        numFirst = numFirst * 10 + n;
-        input_num.value = numFirst;
+        // numFirst = numFirst * 10 + n;
+        //if문으로 소수점을 나오게 해야하함. include 포함되어 있는지 확인해야함.
+        input_num.value = input_num.value + n;
+        Number.parseFloat(input_num.value)
         console.log('null');
         console.log(input_op.value);
       } else {
