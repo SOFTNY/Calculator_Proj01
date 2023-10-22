@@ -24,16 +24,20 @@ EventListener으로 버튼 동작 처리<br>
 
 <br>
 <br>
+<br>
 
 ## 🧮Result
 ![test1](https://github.com/SOFTNY/Calculator_Proj01/assets/111892963/eec1e0f2-8c08-49a7-a482-6300f292c94a)
+
 <br>
 <br>
 
 ## ⌛개발 기간
 23.10.02(월) ~ 23.10.05(목)
+
 <br>
 <br>
+
 
 ## 📌Main Function
 #### switch-case문 연산처리
@@ -57,6 +61,9 @@ switch()
 }
 ```
 <br>
+<br>
+
+
 
 ## 개선점
 ✅숫자를 눌렀을 때 결과창에 함께 보일 수 있도록 만들기<br>
