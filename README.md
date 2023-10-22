@@ -1,6 +1,6 @@
 <h1 align="center">Calculator🧮</h1>
 <br>
-<p align="center">
+<p align="center"> 
 🐰엘리스 SW 엔지니어🐰<br>
 유소프 스터디에서 진행하고 있는 소소하고 소박한 프로젝트입니다.<br>
 해당하는 주제에 각자 자바스크립트로 기능들을 구현해보며<br> 
